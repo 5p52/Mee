@@ -434,19 +434,14 @@ header::before {
     }
     #navbar ul {
         display: none;
-        gap: 2px;
-        display: flex;
-        margin-right: 10px;
     }
     #navbar ul a {
         display: none;
-        font-size: 14px
-        padding: 10px 5px;
     }
 
     /* Header */    
     header {
-        padding: 40px 20px;
+        padding: 30px 20px;
     }
     header h2 {
         font-size: 18px;
