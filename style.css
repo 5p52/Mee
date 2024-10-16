@@ -453,7 +453,7 @@ header::before {
     }
     header p { 
         font-size: 20px;
-        line-height: 1.7;
+        line-height: 1.1;
         color: #000;
     }
     
