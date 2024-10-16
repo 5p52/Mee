@@ -429,8 +429,8 @@ header::before {
         */
     }
     #navbar h2 {
+        padding-left: 50px;
         disply: flex;
-        height: 100vh;
         justify-content: center;
         align-items: center;
         font-weight: 500;
