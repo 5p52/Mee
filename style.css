@@ -443,5 +443,8 @@ header::before {
     #contact .contact-info {
      font-size: 10px;
     }
+    #content {
+        font-size; 5px;
+    }
 }
  
