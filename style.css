@@ -444,12 +444,12 @@ header::before {
      font-size: 10px;
     }
     
-    #content img {
+    header .content img {
      width: 100%;
      max-width: 200px;
      }
     
-    #content {
+    header .content {
      font-size: 10px;
     
     }
