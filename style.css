@@ -445,7 +445,7 @@ header::before {
     }
     
     #content img {
-     width: 50%;
+     width: 30px;
      max-width: 30px;
      }
     
