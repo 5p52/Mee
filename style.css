@@ -455,8 +455,8 @@ header::before {
     header p { 
         font-weight: 500;
         letter-spacing: 1px;
-        font-size: 20px;
-        line-height: 0.9;
+        font-size: 16px;
+        line-height: 1.5;
         color: #000;
     }
     
