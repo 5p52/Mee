@@ -471,13 +471,13 @@ header::before {
     }
     #about .about-content p {
         font-size: 14px; /* Reduced font size */
-        line-height: 1.5; /* Adjusted line height */
+        line-height: 1.5;
     }
 
     /* Offers */
     #offers {
         padding: 20px; /* Reduced padding */
-    }
+    } 
     #offers h2 {
         font-size: 28px; /* Reduced font size */
     }
@@ -497,6 +497,9 @@ header::before {
     }
 
     /* Contact */
+    #contact img {
+        width: 60px; /* Reduced size of contact image */
+    }
     #contact .contact-info {
         font-size: 12px; /* Reduced font size */
     }
