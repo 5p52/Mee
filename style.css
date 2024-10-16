@@ -443,12 +443,12 @@ header::before {
         padding: 40px 20px;
     }
     header h2 {
-        font-size: 16px;
+        font-size: 18px;
         color: #9a9a9a;
     }
     header p { 
-        font-size: 12px;
-        line-height: 0.7;
+        font-size: 14px;
+        line-height: 1.7;
         color: #000;
     }
     
