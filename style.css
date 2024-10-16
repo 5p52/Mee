@@ -445,7 +445,8 @@ header::before {
     }
     
     #header .content img {
-        width: 30px;
+        max-width: 30px;
+        
     }
     
     #header .content h2 {
