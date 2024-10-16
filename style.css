@@ -446,11 +446,12 @@ header::before {
     
     #header .content img {
      position: relative;
-     margin-bottom: 20px;
+     margin-bottom: 200px;
      width: 10px;
      max-width: 20px;
      filter: blur(0px);
      margin-right: 10px;
+     z-index: 1000;
     }
 
     #header .content {
