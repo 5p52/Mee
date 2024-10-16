@@ -444,7 +444,7 @@ header::before {
      font-size: 10px;
     }
     
-    .blurred-image {
+    #content img {
      width: 30px;
      max-width: 50px;
      }
