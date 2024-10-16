@@ -452,8 +452,8 @@ header::before {
         color: #000;
     }
     header p { 
-        font-size: 55px;
-        line-height: 0.5;
+        font-size: 20px;
+        line-height: 1.7;
         color: #000;
     }
     
