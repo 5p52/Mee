@@ -423,6 +423,7 @@ header::before {
 }
 
 @media (max-width: 430px) {
+
   /* Header adjustments for iPhone 15 Pro */
   header {
     padding: 20px;
@@ -431,14 +432,12 @@ header::before {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: auto;
     min-height: 80vh;
-    background-size: cover;
   }
 
   header h2 {
-    font-size: 26px;
-    color: #9a9a9a;
+    font-size: 24px;
+    color: #383848;
     margin-bottom: 10px;
   }
 
@@ -447,13 +446,22 @@ header::before {
     color: #000;
     margin: 10px 0;
     line-height: 1.5;
-    max-width: 350px;
+    max-width: 90%;
   }
 
   header .content img {
-    width: 180px;
+    width: 150px;
     margin-bottom: 15px;
     max-width: 100%;
+  }
+
+  /* Content adjustments */
+  header .content {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
   /* About Section Adjustments */
@@ -466,8 +474,7 @@ header::before {
   }
 
   #about h2 {
-    font-size: 28px;
-    color: #383848;
+    font-size: 26px;
     margin-bottom: 15px;
   }
 
@@ -478,17 +485,16 @@ header::before {
   }
 
   #about .about-content img {
-    width: 260px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 280px;
     margin-bottom: 15px;
   }
 
   #about .about-content p {
     font-size: 14px;
     color: #9a9a9a;
-    line-height: 1.5;
-    margin: 0 auto;
-    max-width: 350px;
+    line-height: 1.6;
+    margin: 0 10px;
   }
 
   /* Offers Section Adjustments */
@@ -500,8 +506,8 @@ header::before {
   }
 
   #offers h2 {
-    font-size: 28px;
-    color: rgb(0, 0, 0);
+    font-size: 26px;
+    color: #383848;
     margin-bottom: 15px;
   }
 
@@ -512,8 +518,8 @@ header::before {
   }
 
   #offers .offers-items img {
-    width: 140px;
-    margin-bottom: 10px;
+    width: 130px;
+    margin-bottom: 15px;
   }
 
   #offers .offers-items h3 {
@@ -525,10 +531,10 @@ header::before {
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
-    max-width: 350px;
+    max-width: 90%;
   }
 
-  /* Contact Section */
+  /* Contact Section Adjustments */
   #contact .contact-info {
     font-size: 12px;
     padding: 15px 0;
@@ -538,6 +544,7 @@ header::before {
     background-color: #9a9a9a;
     color: white;
     text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   }
 
   /* Scroll to top button */
@@ -547,4 +554,5 @@ header::before {
     padding: 8px 12px;
     font-size: 14px;
   }
+
 }
