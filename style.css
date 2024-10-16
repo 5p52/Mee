@@ -466,12 +466,11 @@ header::before {
     }
     #about .about-content img {
         width: 100%; /* Make responsive */
-        max-width: 300px; /* Limit max size for smaller screens */
-        margin-bottom: 20px;
+        max-width: 250px; /* Limit max size */
+        margin-bottom: 20px; /* Add space below image */
     }
     #about .about-content p {
         font-size: 14px; /* Reduced font size */
-        line-height: 1.5;
     }
 
     /* Offers */
@@ -483,7 +482,7 @@ header::before {
     }
     #offers .offers-items {
         flex-direction: column; /* Stack vertically */
-        align-items: center;
+        align-items: center; /* Center items */
     }
     #offers .offers-items img {
         width: 100px; /* Fixed size for smaller screens */
@@ -498,14 +497,9 @@ header::before {
 
     /* Contact */
     #contact img {
-        width: 60px; /* Reduced size of contact image */
+        width: 40px; /* Further reduced size of contact image */
     }
     #contact .contact-info {
         font-size: 12px; /* Reduced font size */
-    }
-    
-    .scroll-up {
-        font-size: 16px; /* Reduced font size */
-        padding: 4px 10px; /* Reduced padding */
     }
 }
