@@ -424,93 +424,45 @@ header::before {
 
 /* Responsiveness for iPhone 15 Pro */
 @media (max-width: 430px) {
-    /* Navbar */
-    #navbar {
-        padding: 10px;
-    }
-    #navbar h2 {
-        font-size: 20px; /* Adjusted for smaller screens */
-    }
-    #navbar ul {
-        gap: 5px;
-    }
-    #navbar ul a {
-        font-size: 14px;
-        padding: 10px 5px;
-    }
-
-    /* Header */
-    header {
-        padding: 20px; /* Reduced padding for smaller screens */
-        align-items: center;
-        text-align: center; /* Center content */
-    }
-    header h2 {
-        font-size: 28px; /* Reduced font size */
-    }
-    header p {
-        font-size: 16px; /* Reduced font size */
-    }
-
     /* About */
     #about {
-        padding: 20px; /* Reduced padding */
+        padding: 20px; /* Reduce padding */
         text-align: center; /* Center text */
-        margin-top: 40px; /* Ensure enough space from previous section */
+        margin-top: 40px; /* Increase margin to separate from previous section */
     }
     #about h2 {
-        font-size: 28px; /* Reduced font size */
-        margin-bottom: 20px; /* Ensure space below */
+        font-size: 28px; /* Adjust font size */
+        margin-bottom: 10px; /* Space below title */
     }
     #about .about-content {
-        flex-direction: column; /* Stack vertically */
-        align-items: center;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center content */
+        margin-top: 20px; /* Add space between title and content */
     }
     #about .about-content img {
-        width: 100%; /* Make responsive */
-        max-width: 250px; /* Limit max size */
-        margin-bottom: 20px; /* Add space below image */
+        width: 100%; /* Make image responsive */
+        max-width: 200px; /* Limit image size */
+        margin-bottom: 15px; /* Add space below image */
     }
     #about .about-content p {
-        font-size: 14px; /* Reduced font size */
-    }
-
-    /* Offers */
-    #offers {
-        padding: 20px; /* Reduced padding */
-        margin-top: 40px; /* Space from previous section */
-    } 
-    #offers h2 {
-        font-size: 28px; /* Reduced font size */
-        margin-bottom: 20px; /* Ensure space below */
-        text-align: center; /* Center text */
-    }
-    #offers .offers-items {
-        flex-direction: column; /* Stack vertically */
-        align-items: center; /* Center items */
-    }
-    #offers .offers-items img {
-        width: 100px; /* Fixed size for smaller screens */
-    }
-    #offers .offers-items h3 {
-        font-size: 20px; /* Reduced font size */
-    }
-    #offers .offers-items p {
-        font-size: 12px; /* Reduced font size */
+        font-size: 14px; /* Adjust font size */
+        line-height: 1.5; /* Improve readability */
+        padding: 0 15px; /* Add horizontal padding for better layout */
     }
 
     /* Contact */
     #contact {
-        padding: 0;
-        margin-top: 40px; /* Adjusted margin for separation */
-        text-align: center; /* Center items */
+        padding: 20px; /* Add padding for better spacing */
+        margin-top: 40px; /* Space from previous section */
+        text-align: center; /* Center content */
     }
     #contact img {
-        width: 40px; /* Further reduced size of contact image */
-        margin-bottom: 10px; /* Add space below image */
+        width: 50px; /* Adjust contact image size */
+        margin-bottom: 10px; /* Space below image */
     }
     #contact .contact-info {
-        font-size: 12px; /* Reduced font size */
+        font-size: 12px; /* Adjust font size */
         padding: 10px 0; /* Adjust padding */
+        margin-top: 10px; /* Add margin to separate text */
     }
 }
