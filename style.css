@@ -444,13 +444,22 @@ header::before {
      font-size: 10px;
     }
     
-    #header .content img {
-        max-width: 30px;
-        
+    header .content img {
+     position: relative;
+     margin-bottom: 20px;
+     max-width: 20px;
+     filter: blur(0px);
+     margin-right: 20px;
     }
-    
-    #header .content h2 {
-     font-size: 1px;
+
+    header .content {
+     position: relative;
+     background: rgba(255, 255, 255, 0.3);
+     padding: 40px;
+     border-radius: 10px;
+     z-index: 10;
+     margin-top: 20px;
+     text-align: left;
     }
 }
  
