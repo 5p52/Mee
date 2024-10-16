@@ -421,3 +421,26 @@ header::before {
         display: none;
     }
 }
+    @media (max-width: 528px) {
+    #navbar {
+     flex-direction: column;
+     padding: 10px;
+    }
+    
+    #navbar ul {
+     flex-direction: column;
+     margin: 0;
+    }
+    
+    header h2 {
+     font-size: 24px;
+    }
+    
+    header p { 
+     font-size: 14px;
+    }
+    
+    #contact .contact-info {
+     font-size: 10px;
+}
+ 
