@@ -429,10 +429,9 @@ header::before {
         */
     }
     #navbar h2 {
-        margin-right: 50%;
         disply: flex;
+        justify-content: center;
         align-items: center;
-        text-align: center;
         font-weight: 500;
         font-size: 26px;
         color: #000;
@@ -453,8 +452,9 @@ header::before {
         color: #000;
     }
     header p { 
+        font-weight: 500;
         font-size: 20px;
-        line-height: 0.9;
+        line-height: 0.7;
         color: #000;
     }
     
