@@ -444,7 +444,7 @@ header::before {
      font-size: 10px;
     }
     
-    header .content img {
+    #header .content img {
      position: relative;
      margin-bottom: 20px;
      width: 10px;
@@ -453,7 +453,7 @@ header::before {
      margin-right: 10px;
     }
 
-    header .content {
+    #header .content {
      position: relative;
      background: rgba(255, 255, 255, 0.3);
      padding: 40px;
