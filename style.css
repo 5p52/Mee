@@ -446,10 +446,10 @@ header::before {
     
     #header .content img {
         width: 50px;
-     }
+    }
     
-    #content {
+    #header .content {
      font-size: 1px;
-     }
+    }
 }
  
