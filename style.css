@@ -447,9 +447,10 @@ header::before {
     header .content img {
      position: relative;
      margin-bottom: 20px;
+     width: 10px;
      max-width: 20px;
      filter: blur(0px);
-     margin-right: 20px;
+     margin-right: 10px;
     }
 
     header .content {
@@ -460,6 +461,7 @@ header::before {
      z-index: 10;
      margin-top: 20px;
      text-align: left;
+     font-size: 10px;
     }
 }
  
