@@ -445,7 +445,7 @@ header::before {
     }
     
     header .content img {
-        width: 150px;
+        width: 10px;
      }
     
     #content {
