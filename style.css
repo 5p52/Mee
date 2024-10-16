@@ -449,7 +449,7 @@ header::before {
      max-width: 3px;
      }
     
-    .content {
+    #content {
      font-size: 1px;
      }
 }
