@@ -445,10 +445,10 @@ header::before {
     }
     
     #header .content img {
-        width: 50px;
+        width: 30px;
     }
     
-    #header .content {
+    #header .content h2 {
      font-size: 1px;
     }
 }
