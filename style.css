@@ -446,3 +446,158 @@ header::before {
         font-size: 10px;
      }
     }
+    
+    /* iPhone 15 Pro و iPhone 15 Pro Max */
+@media only screen and (min-device-width: 1179px) and (max-device-width: 1290px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    /* Navbar */
+    #navbar {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* تحسين الظل */
+    }
+
+    /* Header */
+    header {
+        padding-top: 100px;
+        text-align: center;
+        background-size: cover;
+        padding-left: 0;
+    }
+
+    header h2 {
+        font-size: 40px;
+        color: #333;
+    }
+
+    header p {
+        font-size: 20px;
+        color: #555;
+    }
+
+    /* About Section */
+    #about {
+        padding: 80px 20px;
+    }
+
+    #about h2 {
+        font-size: 38px;
+        color: #383848;
+    }
+
+    #about .about-content img {
+        max-width: 400px;
+    }
+
+    #about .about-content p {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    /* Offers Section */
+    #offers {
+        padding: 60px 20px;
+    }
+
+    #offers h2 {
+        font-size: 36px;
+    }
+
+    #offers .offers-items img {
+        width: 180px;
+    }
+
+    #offers .offers-items h3 {
+        font-size: 26px;
+    }
+
+    #offers .offers-items p {
+        font-size: 16px;
+    }
+
+    /* Contact Section */
+    #contact {
+        padding: 0;
+    }
+
+    #contact .contact-info {
+        padding: 30px 0;
+        font-size: 16px;
+        background-color: #444;
+    }
+
+    #contact .contact-info a {
+        font-size: 16px;
+    }
+
+    /* Scroll Up Button */
+    .scroll-up {
+        bottom: 25px;
+        right: 25px;
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+}
+
+/* iPhone 15 Pro Max */
+@media only screen and (min-device-width: 1284px) and (max-device-width: 1390px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    /* Navbar */
+    #navbar {
+        padding: 25px;
+    }
+
+    /* Header */
+    header {
+        padding-top: 120px;
+        padding-left: 0;
+    }
+
+    header h2 {
+        font-size: 42px;
+    }
+
+    header p {
+        font-size: 22px;
+    }
+
+    /* About Section */
+    #about {
+        padding: 100px 30px;
+    }
+
+    #about h2 {
+        font-size: 40px;
+    }
+
+    #about .about-content img {
+        max-width: 450px;
+    }
+
+    #about .about-content p {
+        font-size: 20px;
+    }
+
+    /* Offers Section */
+    #offers h2 {
+        font-size: 40px;
+    }
+
+    #offers .offers-items img {
+        width: 200px;
+    }
+
+    /* Contact Section */
+    #contact .contact-info {
+        padding: 35px 0;
+        font-size: 18px;
+    }
+
+    /* Scroll Up Button */
+    .scroll-up {
+        bottom: 30px;
+        right: 30px;
+        font-size: 22px;
+        padding: 12px 18px;
+    }
+}
