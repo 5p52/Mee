@@ -456,9 +456,11 @@ header::before {
     #about {
         padding: 20px; /* Reduced padding */
         text-align: center; /* Center text */
+        margin-top: 40px; /* Ensure enough space from previous section */
     }
     #about h2 {
         font-size: 28px; /* Reduced font size */
+        margin-bottom: 20px; /* Ensure space below */
     }
     #about .about-content {
         flex-direction: column; /* Stack vertically */
@@ -476,9 +478,12 @@ header::before {
     /* Offers */
     #offers {
         padding: 20px; /* Reduced padding */
+        margin-top: 40px; /* Space from previous section */
     } 
     #offers h2 {
         font-size: 28px; /* Reduced font size */
+        margin-bottom: 20px; /* Ensure space below */
+        text-align: center; /* Center text */
     }
     #offers .offers-items {
         flex-direction: column; /* Stack vertically */
@@ -489,17 +494,23 @@ header::before {
     }
     #offers .offers-items h3 {
         font-size: 20px; /* Reduced font size */
-        margin: 10px 0; /* Reduced margin */
     }
     #offers .offers-items p {
         font-size: 12px; /* Reduced font size */
     }
 
     /* Contact */
+    #contact {
+        padding: 0;
+        margin-top: 40px; /* Adjusted margin for separation */
+        text-align: center; /* Center items */
+    }
     #contact img {
         width: 40px; /* Further reduced size of contact image */
+        margin-bottom: 10px; /* Add space below image */
     }
     #contact .contact-info {
         font-size: 12px; /* Reduced font size */
+        padding: 10px 0; /* Adjust padding */
     }
 }
