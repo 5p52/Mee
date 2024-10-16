@@ -444,7 +444,7 @@ header::before {
      font-size: 10px;
     }
     
-    #header .content img {
+    content img {
      width: 1;
      max-width: 1px;
      }
