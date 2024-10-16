@@ -430,6 +430,7 @@ header::before {
     }
     #navbar h2 {
         disply: flex;
+        height: 100vh;
         justify-content: center;
         align-items: center;
         font-weight: 500;
@@ -453,8 +454,9 @@ header::before {
     }
     header p { 
         font-weight: 500;
+        letter-spacing: 1px;
         font-size: 20px;
-        line-height: 0.7;
+        line-height: 0.9;
         color: #000;
     }
     
