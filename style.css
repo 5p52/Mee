@@ -433,7 +433,7 @@ header::before {
         font-size: 20px;
     }
     #navbar ul {
-        gap: 5px;
+        gap: 2px;
         display: flex;
         margin-right: 20px;
     }
@@ -452,7 +452,7 @@ header::before {
     }
     header p { 
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 0.9;
         color: #000;
     }
     
