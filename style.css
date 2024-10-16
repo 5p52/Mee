@@ -445,9 +445,8 @@ header::before {
     }
     
     #header .content img {
-     display: none;
-     width: 100%;
-     max-width: 100px;
+     width: 1;
+     max-width: 1px;
      }
     
     #content {
