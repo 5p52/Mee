@@ -422,7 +422,6 @@ header::before {
     }
 }
 
-
 /* iPhone 15 Pro */
 @media only screen and (min-device-width: 1179px) and (max-device-width: 1290px) and (-webkit-min-device-pixel-ratio: 3) {
 
