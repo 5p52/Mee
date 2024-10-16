@@ -433,12 +433,13 @@ header::before {
         font-size: 20px;
     }
     #navbar ul {
-                display: none;
+        display: none;
         gap: 2px;
         display: flex;
         margin-right: 10px;
     }
     #navbar ul a {
+        display: none;
         font-size: 14px
         padding: 10px 5px;
     }
