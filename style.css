@@ -444,6 +444,11 @@ header::before {
      font-size: 10px;
     }
     
+    #content img {
+     width: 100%;
+     max-width: 200px;
+     }
+    
     #content {
      font-size: 5px;
     }
