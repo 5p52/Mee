@@ -445,12 +445,12 @@ header::before {
     }
     
     #content img {
-     width: 100%;
+     width: auto;
      max-width: 50px;
      }
     
     #content {
-     font-size: 5px;
+     font-size: 3px;
     }
 }
  
