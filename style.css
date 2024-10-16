@@ -421,7 +421,7 @@ header::before {
         display: none;
     }
 }
-    @media (max-width: 528px) {
+    @media (max-width: 430px) {
     #navbar {
      flex-direction: column;
      padding: 10px;
@@ -443,8 +443,9 @@ header::before {
     #contact .contact-info {
      font-size: 10px;
     }
+    
     #content {
-    font-size: 5px;
+     font-size: 5px;
     }
 }
  
