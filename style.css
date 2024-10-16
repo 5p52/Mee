@@ -422,13 +422,14 @@ header::before {
     }
 }
 
-/* iPhone 15 Pro */
+/* Responsiveness for iPhone 15 Pro */
 @media (max-width: 430px) {
+    /* Navbar */
     #navbar {
         padding: 10px;
     }
     #navbar h2 {
-        font-size: 20px;
+        font-size: 20px; /* Adjusted for smaller screens */
     }
     #navbar ul {
         gap: 5px;
@@ -437,71 +438,71 @@ header::before {
         font-size: 14px;
         padding: 10px 5px;
     }
-    
+
+    /* Header */
     header {
-        padding: 20px 15px; /* Reduced padding for smaller screens */
+        padding: 20px; /* Reduced padding for smaller screens */
         align-items: center;
-        text-align: center;
+        text-align: center; /* Center content */
     }
     header h2 {
         font-size: 28px; /* Reduced font size */
     }
     header p {
-        font-size: 16px;
-        line-height: 1.5;
-        color: #000;
+        font-size: 16px; /* Reduced font size */
     }
 
     /* About */
     #about {
-        flex-direction: column;
-        padding: 20px 10px; /* Reduced padding */
-        text-align: center;
+        padding: 20px; /* Reduced padding */
+        text-align: center; /* Center text */
     }
     #about h2 {
         font-size: 28px; /* Reduced font size */
     }
     #about .about-content {
-        flex-direction: column;
+        flex-direction: column; /* Stack vertically */
         align-items: center;
     }
     #about .about-content img {
-        width: 100%;
+        width: 100%; /* Make responsive */
         max-width: 300px; /* Limit max size for smaller screens */
         margin-bottom: 20px;
     }
     #about .about-content p {
         font-size: 14px; /* Reduced font size */
-        line-height: 1.5;
+        line-height: 1.5; /* Adjusted line height */
     }
 
     /* Offers */
     #offers {
-        padding: 20px 10px; /* Reduced padding */
-    } 
+        padding: 20px; /* Reduced padding */
+    }
     #offers h2 {
         font-size: 28px; /* Reduced font size */
     }
     #offers .offers-items {
-        flex-direction: column;
+        flex-direction: column; /* Stack vertically */
         align-items: center;
     }
     #offers .offers-items img {
-        width: 150px; /* Reduced size for smaller screens */
+        width: 100px; /* Fixed size for smaller screens */
     }
     #offers .offers-items h3 {
         font-size: 20px; /* Reduced font size */
+        margin: 10px 0; /* Reduced margin */
     }
     #offers .offers-items p {
         font-size: 12px; /* Reduced font size */
     }
 
-    /* Footer */
-    .footer-container {
-        flex-direction: column;
-        padding: 10px 5px;
-    }
+    /* Contact */
     #contact .contact-info {
         font-size: 12px; /* Reduced font size */
+    }
+    
+    .scroll-up {
+        font-size: 16px; /* Reduced font size */
+        padding: 4px 10px; /* Reduced padding */
     }
 }
