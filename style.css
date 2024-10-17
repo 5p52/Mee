@@ -504,9 +504,9 @@ header::before {
     }
     #contact .contact-info p {
        padding-left: 18px;
+       padding-bottom: 2px;
        text-align: left;
-       font-weight: bold;
-       font-size: 12px;
+       font-size: 22px;
        justify-content: left;
        align-items: left;
        position: absolute;
