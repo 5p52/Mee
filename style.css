@@ -424,7 +424,8 @@ header::before {
 @media only screen and (max-width: 528px) and (min-width: 390px) {
 
      /* Navbar */   
-    #navbar {   
+    #navbar {
+        padding: 5px;
         disply: flex;
         justify-content: center;
         align-items: center;
