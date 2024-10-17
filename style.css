@@ -486,14 +486,14 @@ header::before {
        font-size: 12px;
        display: flex;
        background: #9a9a9a;
-       padding-top: 40px ;
+       padding-top: 70px ;
        color: #fff;
     }
     .Connect {
        padding-left: 18px;
        position: relative;
        font-weight: bold;
-       font-size: 12px;
+       font-size: 18px;
        top: -30px; /* لتحريك النص بمقدار 30 بكسل للأعلى */
     }
     #contact .contact-info p {
