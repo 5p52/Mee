@@ -497,25 +497,24 @@ header::before {
         font-size: 24px; /* حجم الأيقونات */
     }
 
-   #contact {
+    #contact {
        position: relative;
-       min-height: calc(50vh);
+       min-height: calc(100vh);
        margin-top: 100px;
-       display: flex;
-       flex-direction: column;
-       justify-content: flex-end;
-       background-color: #9a9a9a;
-   }
-
-
-   .contact-info {
+    }
+    #contact .contact-info {
        position: absolute;
-       text-align: center;
+       bottom: 0;
+       left: 0;
+       text-align: left;
+       justify-content: left;
+       align-items: left;
+       font-size: 12px;
+       display: flex;
+       background: #9a9a9a;
+       padding-top: 40px ;
        color: #fff;
-       padding: 10px;
-       font-size: 10px;
-       width: 100%;
-   }
+    }
     #contact .contact-info p {
        padding-left: 18px;
        text-align: left;
@@ -524,5 +523,4 @@ header::before {
        align-items: left;
        position: absolute;
     }
-}        
-
+}
