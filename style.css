@@ -470,6 +470,12 @@ header::before {
     #about {
         margin-top: 100px;
     }
+   #contact .Acconts {
+       bottom: 0;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+    }
    #contact {
        position: relative;
        min-height: calc(100vh);
