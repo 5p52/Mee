@@ -474,6 +474,7 @@ header::before {
        position: absolute;
        font-size: 30px;
        bottom: 0;
+       background: #9a9a9a;
        text-align: center;
        justify-content: center;
        align-items: center;
