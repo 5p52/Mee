@@ -492,6 +492,8 @@ header::before {
     .Connect {
        padding-left: 18px;
        position: relative;
+       font-weight: bold;
+       font-size: 12px;
        top: -30px; /* لتحريك النص بمقدار 30 بكسل للأعلى */
     }
     #contact .contact-info p {
