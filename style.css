@@ -494,7 +494,7 @@ header::before {
        justify-content: left;
        align-items: left;
        position: absolute;
-       max-width: 50px;
+       max-width: 150px;
     }
 }        
 
