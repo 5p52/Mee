@@ -491,7 +491,7 @@ header::before {
        font-weight: bold;
        justify-content: left;
        align-items: left;
-       display: flex;
+       position: absolute;
     }
 }        
 
