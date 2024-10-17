@@ -488,6 +488,7 @@ header::before {
     #contact .contact-info p {
        paddin-left: 3px;
        text-align: left;
+       font-weight: bold;
     }
 }        
 
