@@ -462,7 +462,10 @@ header::before {
         position: relative;
         margin-top: 50px;
     }
-    
+    header .content img {
+        position: relative;
+        max-width: 150px;
+    }
     /* About */
     #about {
         margin-top: 100px;
