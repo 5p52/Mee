@@ -478,9 +478,11 @@ header::before {
        position: absolute;
        bottom: 0;
        left: 0;
+       text-align: left;
        font-size: 10px;
        display: flex;
        background: #9a9a9a;
+       background: rgba(0, 0, 0, 0);
        padding: 20px 0;
        color: #fff;
     }
