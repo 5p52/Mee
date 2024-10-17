@@ -480,6 +480,7 @@ header::before {
      font-size: 12px;
      font-weight: bold;
      color: #fff;
+     position: absolute;
      
     }
    #contact .Acconts {
