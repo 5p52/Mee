@@ -483,7 +483,6 @@ header::before {
        text-align: left;
        justify-content: left;
        align-items: left;
-       font-size: 12px;
        display: flex;
        background: #9a9a9a;
        padding-top: 70px ;
@@ -496,10 +495,17 @@ header::before {
        font-size: 18px;
        top: -30px; /* لتحريك النص بمقدار 30 بكسل للأعلى */
     }
+    .Text { 
+       padding-left: 18px;
+       position: relative;
+       font-size: 14px;
+       top: -27px;
+    }
     #contact .contact-info p {
        padding-left: 18px;
        text-align: left;
        font-weight: bold;
+       font-size: 12px;
        justify-content: left;
        align-items: left;
        position: absolute;
