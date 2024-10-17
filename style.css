@@ -481,7 +481,7 @@ header::before {
        text-align: left;
        justify-content: left;
        align-items: left;
-       font-size: 14px;
+       font-size: 12px;
        display: flex;
        background: #9a9a9a;
        padding-top: 40px ;
@@ -494,7 +494,6 @@ header::before {
        justify-content: left;
        align-items: left;
        position: absolute;
-       max-width: 150px;
     }
 }        
 
