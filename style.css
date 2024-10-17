@@ -460,8 +460,8 @@ header::before {
 
     header .content {
       position: relative;
-      margin-top: 40px;
-      margin-bottom: 100px;
+      margin-top: 50px;
+      margin-bottom: 200px;
     }
     
     #contact .contact-info {
