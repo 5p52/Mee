@@ -404,6 +404,7 @@ header::before {
         padding: 10px 0px;
         position: fixed;
         background-color: #9a9a9a;
+        background: rgba(0, 0, 0, 0.3);
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     }
     html, body {
@@ -483,7 +484,7 @@ header::before {
        font-size: 12px;
        display: flex;
        background: #9a9a9a;
-       padding-top: 40px ;
+       padding-top: 90px ;
        color: #fff;
     }
     #contact .contact-info p {
