@@ -473,6 +473,7 @@ header::before {
    #contact .Acconts {
        position: relative;
        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+       background: #9a9a9a;
     }
    #contact .Acconts h3 {
      text-align: left;
