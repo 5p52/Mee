@@ -493,13 +493,13 @@ header::before {
        position: relative;
        font-weight: bold;
        font-size: 18px;
-       top: -30px; /* لتحريك النص بمقدار 30 بكسل للأعلى */
+       top: -40px; /* لتحريك النص بمقدار 30 بكسل للأعلى */
     }
     .Text { 
        padding-left: 18px;
        position: relative;
        font-size: 14px;
-       top: -27px;
+       top: -37px;
     }
     #contact .contact-info p {
        padding-left: 18px;
