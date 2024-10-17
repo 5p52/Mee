@@ -471,6 +471,7 @@ header::before {
         margin-top: 100px;
     }
    #contact .Acconts {
+       position: absolute;
        bottom: 0;
        text-align: center;
        justify-content: center;
