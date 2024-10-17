@@ -473,6 +473,7 @@ header::before {
    #contact {
        position: relative;
        min-height: calc(100vh);
+       margin-top: 100px;
    }
    #contact .contact-info {
        position: absolute;
@@ -484,7 +485,7 @@ header::before {
        font-size: 12px;
        display: flex;
        background: #9a9a9a;
-       padding-top: 90px ;
+       padding-top: 40px ;
        color: #fff;
     }
     #contact .contact-info p {
