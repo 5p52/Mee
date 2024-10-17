@@ -459,11 +459,14 @@ header::before {
     }
 
     header .content {
-      position: relative;
-      margin-top: 50px;
-      margin-bottom: 200px;
+        position: relative;
+        margin-top: 50px;
     }
     
+    /* About */
+    #about {
+        margin-top: 100px;
+    }
     #contact .contact-info {
      font-size: 10px;
     }
