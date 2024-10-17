@@ -427,7 +427,7 @@ header::before {
     #navbar {
         justify-content: center;
         align-items: center;
-        disply: flex;
+        display: flex;
     }
     #navbar h2 {
         padding: 2.5px;
