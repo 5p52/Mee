@@ -488,12 +488,13 @@ header::before {
        color: #fff;
     }
     #contact .contact-info p {
-       paddin-left: 3px;
+       padding-left: 3px;
        text-align: left;
        font-weight: bold;
        justify-content: left;
        align-items: left;
        position: absolute;
+       max-width: 50px;
     }
 }        
 
