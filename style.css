@@ -489,6 +489,8 @@ header::before {
        paddin-left: 3px;
        text-align: left;
        font-weight: bold;
+       justify-content: left;
+       align-items: left;
     }
 }        
 
