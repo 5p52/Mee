@@ -485,5 +485,9 @@ header::before {
        padding-top: 20px ;
        color: #fff;
     }
+    #contact .contact-info p {
+       paddin-left: 3px;
+       text-align: left;
+    }
 }        
 
