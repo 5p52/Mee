@@ -499,7 +499,7 @@ header::before {
 
    #contact {
        position: relative;
-       min-height: calc(100vh);
+       min-height: calc(50vh);
        margin-top: 100px;
        display: flex;
        flex-direction: column;
@@ -509,8 +509,8 @@ header::before {
 
 
    .contact-info {
+       position: absolute;
        text-align: center;
-       background-color: #9a9a9a;
        color: #fff;
        padding: 10px;
        font-size: 10px;
