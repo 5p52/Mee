@@ -470,32 +470,6 @@ header::before {
     #about {
         margin-top: 100px;
     }
-    
-    }
-
-    .Acconts {
-        text-align: center;
-        margin-bottom: 20px; /* مسافة فوق contact-info */
-    }
-
-    .Acconts h3 {
-        text-align: left; /* محاذاة العنوان على اليسار */
-        font-size: 18px; /* حجم مناسب للعناوين */
-        margin-left: 20px; /* مسافة من اليسار لضمان محاذاة صحيحة */
-        color: #fff;
-    }
-
-    .Acconts a {
-        margin: 0 10px;
-        font-size: 24px; /* حجم الأيقونات */
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .Acconts i {
-        display: inline-block;
-        font-size: 24px; /* حجم الأيقونات */
-    }
 
     #contact {
        position: relative;
@@ -517,6 +491,7 @@ header::before {
     }
     #contact .contact-info h3 {
        padding-left: 18px;
+       bottom: 30px;
     }
     #contact .contact-info p {
        padding-left: 18px;
