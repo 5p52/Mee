@@ -471,16 +471,18 @@ header::before {
         margin-top: 100px;
     }
    #contact .Acconts {
-       position: absolute;
-       font-size: 30px;
-       bottom: 0;
-       background: #9a9a9a;
-       text-align: left;
-       justify-content: center;
-       align-items: center;
-       display: flex;
-       padding-bottom: 60px;
+       position: relative;
     }
+   #contact .Acconts h3 {
+     text-align: left;
+     padding-left: 18px;
+     font-size: 12px;
+     font-weight: bold;
+     
+    }
+   #contact .Acconts {
+    
+   }
    #contact {
        position: relative;
        min-height: calc(100vh);
