@@ -475,11 +475,11 @@ header::before {
        font-size: 30px;
        bottom: 0;
        background: #9a9a9a;
-       text-align: center;
+       text-align: left;
        justify-content: center;
        align-items: center;
        display: flex;
-       padding-bottom: 40px;
+       padding-bottom: 60px;
     }
    #contact {
        position: relative;
