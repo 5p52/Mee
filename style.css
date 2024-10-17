@@ -472,10 +472,12 @@ header::before {
     }
    #contact .Acconts {
        position: absolute;
+       font-size: 30px;
        bottom: 0;
        text-align: center;
        justify-content: center;
        align-items: center;
+       display: flex;
     }
    #contact {
        position: relative;
