@@ -457,6 +457,12 @@ header::before {
         line-height: 1.5;
         color: #000;
     }
+
+    header .content {
+      position: relative;
+      margin-top: 40px;
+      margin-bottom: 100px;
+    }
     
     #contact .contact-info {
      font-size: 10px;
