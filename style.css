@@ -425,10 +425,13 @@ header::before {
 
      /* Navbar */   
     #navbar {
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        left: 0;
+        right: 0;
         padding: 5px;
         disply: flex;
-        justify-content: center;
-        align-items: center;
     }
     #navbar h2 {
         font-weight: 500;
