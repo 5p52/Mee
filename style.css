@@ -493,7 +493,7 @@ header::before {
        position: relative;
        font-weight: bold;
        font-size: 18px;
-       top: -40px; /* لتحريك النص بمقدار 30 بكسل للأعلى */
+       top: -70px; /* لتحريك النص بمقدار 30 بكسل للأعلى */
     }
     .Text { 
        padding-left: 18px;
