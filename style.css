@@ -500,6 +500,7 @@ header::before {
        position: relative;
        font-size: 14px;
        top: -37px;
+       text-align: left;
     }
     #contact .contact-info p {
        padding-left: 18px;
