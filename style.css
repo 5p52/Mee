@@ -471,7 +471,10 @@ header::before {
         margin-top: 100px;
     }
 
-  
+     #offers {
+       margin-bottom: 100px;
+   }
+
    #contact {
     position: relative;
     min-height: calc(100vh);
