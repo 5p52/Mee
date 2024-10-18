@@ -471,45 +471,66 @@ header::before {
         margin-top: 100px;
     }
 
-    #contact {
-       position: relative;
-       min-height: calc(100vh);
-       margin-top: 100px;
-    }
-    #contact .contact-info {
-       position: absolute;
-       bottom: 0;
-       left: 0;
-       text-align: left;
-       justify-content: left;
-       align-items: left;
-       display: flex;
-       background: #9a9a9a;
-       padding-top: 70px ;
-       color: #fff;
-    }
-    .Connect {
-       padding-left: 18px;
-       position: relative;
-       font-weight: bold;
-       font-size: 18px;
-       top: -70px; /* لتحريك النص بمقدار 30 بكسل للأعلى */
-    }
-    .Text { 
-       padding-left: 18px;
-       position: relative;
-       font-size: 14px;
-       top: -37px;
-       text-align: left;
-    }
-    #contact .contact-info p {
-       padding-left: 20px;
-       padding-bottom: 1px;
-       text-align: left;
-       font-size: 20px;
-       justify-content: left;
-       align-items: left;
-       position: absolute;
-       margin: 0;
-    }
+  
+   #contact {
+    position: relative;
+    min-height: calc(100vh);
+    margin-top: 120px;
+   }
+   #contact .contact-info {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     text-align: left;
+     justify-content: left;
+     align-items: left;
+     display: flex;
+     background: #9a9a9a;
+     padding-top: 270px ;
+     color: #fff;
+   }
+   .Connect {
+     padding-left: 30px;
+     display: flex;
+     justify-content: left;
+     position: absolute;
+     font-weight: bold;
+     font-size: 20px;
+     padding-bottom: 20px;
+     top: 20px;
+   }
+   .Text { 
+     padding-left: 30px;
+     position: absolute;
+     font-size: 16px;
+     top: 60px;
+     text-align: left;
+     justify-content: left;
+     color: rgb(255, 255, 255);
+     line-Height: 1.3;
+     bottom: 0;
+
+   }
+   #contact .contact-info a {
+     font-size: 24px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     bottom: 150px;
+     position: relative;
+     margin-left: 78px;
+
+   }
+   #contact .contact-info p {
+     padding-left: 30px;
+     bottom: 0;
+     text-align: left;
+     font-size: 16px;
+     justify-content: left;
+     align-items: left;
+     position: absolute;
+     margin: 0;
+     color: rgb(255, 255, 255);
+     line-Height: 1.3;
+   }
 }
