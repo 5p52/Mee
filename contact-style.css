@@ -95,7 +95,10 @@ main {
 }
 /* Contact Start */
 
-
+#contact {
+    min-height: calc(60vh);
+    margin-top: 400px;
+}
 #contact .contact-info {
     padding: 50px  100px;
     background: #a8dadc;
@@ -168,24 +171,74 @@ form textarea {
 }
 /* Contact End */
 
-/* Footer Start */
-#footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #9a9a9a;
-    color: #fff;
-    padding: 20px 0;
-    font-size: 14px;
-    text-align: center;
-}
 
-#footer a {
-   color: #fff;
-   text-decoration: none;
-}
-/* Footer End */
+#conect {
+    position: relative;
+    min-height: calc(20vh);
+    margin-top: 120px;
+   }
+   #conect .connect-info {
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     text-align: left;
+     justify-content: left;
+     align-items: left;
+     display: flex;
+     background: #1d3557;
+     padding-top: 300px ;
+     color: #fff;
+   }
+   .Connect {
+     padding-left: 140px;
+     display: flex;
+     justify-content: left;
+     position: absolute;
+     font-weight: bold;
+     font-size: 30px;
+     padding-bottom: 20px;
+     top: 70px;
+   }
+   .Text { 
+     padding-left: 140px;
+     position: absolute;
+     font-size: 16px;
+     top: 120px;
+     text-align: left;
+     justify-content: left;
+     color: rgb(255, 255, 255);
+     line-Height: 1.3;
+     bottom: 0;
+
+   }
+   #conect .connect-info a {
+     font-size: 24px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     bottom: 120px;
+     position: relative;
+     margin-right: -90px;
+     color: #fff;
+     padding-left: 140px;
+
+   }
+   #conect .connect-info p {
+     padding-left: 140px;
+     bottom: 40px;
+     text-align: left;
+     font-size: 16px;
+     justify-content: left;
+     align-items: left;
+     position: absolute;
+     margin: 0;
+     color: rgb(255, 255, 255);
+     line-Height: 1.3;
+   }
+
+
+
 /* Scroll Up */
 .scroll-up {
     scroll-behavior: smooth;
@@ -243,10 +296,69 @@ form textarea {
     #contact .btn {
         padding: 10px 20px;
     }
-    #footer {
-        padding: 15px 0;
-        font-size: 16px;
-    }
+    #conect {
+        position: relative;
+        margin-top: 120px;
+       }
+       #conect .connect-info {
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         text-align: left;
+         justify-content: left;
+         align-items: left;
+         display: flex;
+         background: #1d3557;
+         padding-top: 270px ;
+         color: #fff;
+       }
+       .Connect {
+         padding-left: 130px;
+         display: flex;
+         justify-content: left;
+         position: absolute;
+         font-weight: bold;
+         font-size: 20px;
+         padding-bottom: 20px;
+         top: 20px;
+       }
+       .Text { 
+         padding-left: 130px;
+         position: absolute;
+         font-size: 16px;
+         top: 60px;
+         text-align: left;
+         justify-content: left;
+         color: rgb(255, 255, 255);
+         line-Height: 1.3;
+         bottom: 0;
+    
+       }
+       #conect .connect-info a {
+         font-size: 24px;
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         bottom: 150px;
+         position: relative;
+         margin-right: -155px;
+         color: #fff;
+         padding-left: 200px;
+    
+       }
+       #conect .connect-info p {
+         padding-left: 130px;
+         bottom: 0;
+         text-align: left;
+         font-size: 16px;
+         justify-content: left;
+         align-items: left;
+         position: absolute;
+         margin: 0;
+         color: rgb(255, 255, 255);
+         line-Height: 1.3;
+       }
+    
 }
     /* Mobile Devices */
 @media (max-width: 768px) {
@@ -284,9 +396,70 @@ form textarea {
     #contact .btn {
         padding: 10px 20px;
     }
-    #footer {
-        font-size: 10px;
-        padding: 10px 0;
-    }
+       /* Contact  */
+   #conect {
+    position: relative;
+    min-height: calc(20vh);
+    margin-top: 120px;
+   }
+   #conect .connect-info {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     text-align: left;
+     justify-content: left;
+     align-items: left;
+     display: flex;
+     background: #1d3557;
+     padding-top: 270px ;
+     color: #fff;
+   }
 
+   /* Connect */
+   .Connect {
+     padding-left: 30px;
+     display: flex;
+     justify-content: left;
+     position: absolute;
+     font-weight: bold;
+     font-size: 20px;
+     padding-bottom: 20px;
+     top: 20px;
+   }
+   .Text { 
+     padding-left: 30px;
+     position: absolute;
+     font-size: 16px;
+     top: 60px;
+     text-align: left;
+     justify-content: left;
+     color: rgb(255, 255, 255);
+     line-Height: 1.3;
+     bottom: 0;
+
+   }
+   #conect .connect-info a {
+     font-size: 24px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     bottom: 150px;
+     position: relative;
+     margin-right: -55px;
+     color: #fff;
+     padding-left: 100px;
+
+   }
+   #conect .connect-info p {
+     padding-left: 30px;
+     bottom: 0;
+     text-align: left;
+     font-size: 16px;
+     justify-content: left;
+     align-items: left;
+     position: absolute;
+     margin: 0;
+     color: rgb(255, 255, 255);
+     line-Height: 1.3;
+   }
 }
